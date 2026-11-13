@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Про автора — Шумал Анна Володимирівна</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Навігаційне меню -->
+  <nav class="navbar">
+    <div class="nav-container">
+      <a href="index.html" class="nav-brand">
+        <span class="brand-badge">BR</span>
+        <span>Економічна безпека держави</span>
+      </a>
+      <button class="menu-toggle" id="menuToggle" aria-label="Відкрити меню">☰</button>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="index.html" class="active">Про автора</a></li>
+        <li><a href="country.html">Економічна безпека Бразилії</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Головний банер -->
+  <header class="hero">
+    <div class="hero-container">
+      <span class="hero-tag">Інформаційні технології у системі забезпечення економічної безпеки держави</span>
+      <h1>Аналітичний вебпортал дослідження економічної безпеки</h1>
+      <p>
+        Персональна сторінка авторки проєкту та комплексна аналітична платформа з оцінювання
+        рівня економічної безпеки Федеративної Республіки Бразилія за 9 функціональними складовими.
+      </p>
+      <div class="hero-actions">
+        <a href="country.html" class="btn btn-primary">Перейти до аналізу Бразилії →</a>
+        <a href="#author-details" class="btn btn-outline">Інформація про автора</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Основний вміст -->
+  <main class="main-content" id="author-details">
+    <section class="section-block">
+      <div class="section-header">
+        <h2>Про автора проєкту</h2>
+        <p>Загальні відомості, освітній профіль, наукові інтереси та контактна інформація</p>
+      </div>
+
+      <div class="author-layout">
+        <!-- Ліва картка профілю -->
+        <aside class="card profile-card">
+          <div class="avatar-circle">ША</div>
+          <h2>Шумал Анна Володимирівна</h2>
+          <p class="profile-subtitle">Студентка спеціальності «Міжнародні відносини»</p>
+          <p style="font-size: 0.93rem; color: var(--text-muted);">
+            Державний торговельно-економічний університет (ДТЕУ),<br>
+            факультет міжнародної торгівлі та права
+          </p>
+
+          <div class="contact-box">
+            <div class="contact-label">Контактна електронна пошта</div>
+            <a href="mailto:annasumal22@gmail.com" class="contact-email" id="authorEmail">annasumal22@gmail.com</a>
+            <button type="button" class="copy-btn" id="copyEmailBtn">Скопіювати пошту</button>
+          </div>
+        </aside>
+
+        <!-- Права картка детальної інформації -->
+        <div class="card">
+          <div class="info-list">
+            <div class="info-item">
+              <h3>Заклад вищої освіти та факультет</h3>
+              <p>
+                Державний торговельно-економічний університет, факультет міжнародної торгівлі та права.
+              </p>
+            </div>
+
+            <div class="info-item">
+              <h3>Освітній напрям та додаткова підготовка</h3>
+              <p>
+                Навчаюся на спеціальності «Міжнародні відносини», поглиблено займаюся вивченням
+                іноземної мови та психології, поєднуючи міждисциплінарні підходи до аналізу глобальних процесів.
+              </p>
+            </div>
+
+            <div class="info-item">
+              <h3>Професійні та наукові інтереси</h3>
+              <p>
+                Основні напрями досліджень охоплюють сучасну геополітику, безпекові аспекти міждержавної взаємодії
+                та поведінковий аналіз:
+              </p>
+              <div class="tags-wrap">
+                <span class="interest-tag">Міжнародні відносини</span>
+                <span class="interest-tag">Військова діяльність</span>
+                <span class="interest-tag">Психологія</span>
+                <span class="interest-tag">Економічна безпека держав</span>
+              </div>
+            </div>
+
+            <div class="info-item">
+              <h3>Про практичне дослідження на сайті</h3>
+              <p>
+                На другій сторінці цього вебсайту представлено результати кількісного та якісного оцінювання
+                економічної безпеки Бразилії за дев’ятьма складовими (виробничою, демографічною, енергетичною,
+                зовнішньоекономічною, інвестиційно-інноваційною, макроекономічною, продовольчою, соціальною та фінансовою)
+                з візуалізацією динаміки, порівнянням із пороговими значеннями та визначенням ключових загроз.
+              </p>
+              <div style="margin-top: 0.9rem;">
+                <a href="country.html" class="btn btn-primary" style="font-size: 0.9rem; padding: 0.55rem 1.1rem;">
+                  Відкрити аналіз економічної безпеки Бразилії →
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Нижній колонтитул -->
+  <footer class="footer">
+    <p>© 2026 | Автор сайту: <strong>Шумал Анна Володимирівна</strong> — Державний торговельно-економічний університет</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
